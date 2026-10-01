@@ -1,0 +1,26 @@
+# Dependencies & builds
+node_modules/
+dist/
+build/
+.vite/
+
+# Secrets & local config
+.env
+.env.*
+!.env.example
+.claude/settings.local.json
+
+# Agent event data — contains prompts, file paths, transcripts. Never commit.
+data/
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+logs/
+*.log
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
